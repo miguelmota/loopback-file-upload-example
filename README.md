@@ -4,7 +4,7 @@
 
 ## Configuration
 
-**Filesystem storage:**
+**File system storage:**
 
 Configure storage directory in `server/datasources.json`
 
