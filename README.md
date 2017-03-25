@@ -47,7 +47,8 @@ $ curl -X DELETE http://localhost:3000/api/assets/1
 
 ## Resources
 
--
+- [Loopback 3.0](http://loopback.io/doc/en/lb3/)
+- [Loopback storage component](https://loopback.io/doc/en/lb3/Storage-component.html)
 
 # License
 
