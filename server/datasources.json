@@ -1,0 +1,21 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "storage": {
+    "name": "storage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "/var/tmp/",
+    "maxFileSize": "5000000000"
+  },
+  "storage_s3": {
+    "name": "storage_s3",
+    "connector": "loopback-component-storage",
+    "provider": "amazon",
+    "keyId": "<ACCESS_KEY_ID>",
+    "key": "<SECRET_ACCESS_KEY>",
+    "acl": "public-read"
+  }
+}
