@@ -45,6 +45,10 @@ $ curl -X DELETE http://localhost:3000/api/assets/1
 {"count":1}
 ```
 
+### Web form upload
+
+Please take a look at [issue #1](https://github.com/miguelmota/loopback-file-upload-example/issues/1) for an example.
+
 ## Resources
 
 - [Loopback 3.0](http://loopback.io/doc/en/lb3/)
